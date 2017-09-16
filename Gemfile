@@ -25,12 +25,13 @@ gem 'puma', '~> 3.7'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 gem 'active_model_serializers'
+gem 'rack-attack'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Use RSpec for specs
-  gem 'rspec-rails', '3.1.0'
+  gem 'rspec-rails'
   # Use Factory Girl for generating random test data
   gem 'factory_girl_rails'
 end
